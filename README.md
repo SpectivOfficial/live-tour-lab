@@ -6,7 +6,9 @@ LiveTourLab is an extensible framework for creating Live VR Tours. Extend with y
 Built on top of Facebook's open source [React VR](https://github.com/facebook/react-vr).
 
 ## Demo (click to open)
-[![LiveTourLab Demo](https://livetourlab.com/dev/static/img/screen-rec-10fps-320.gif)](https://livetourlab.com/tours/3003)
+<a href="https://livetourlab.com/tours/3003
+" target="_blank"><img src="https://livetourlab.com/static/vid/screen-rec-short-10fps-320.gif"
+alt="LiveTourLab Demo" width="320" height="180" border="0" /></a>
 
 A live tour is an entirely new media format:
 - [x] 10x faster creation than game engines
@@ -18,7 +20,6 @@ A live tour is an entirely new media format:
 - [x] 100% open source
 - [x] 1 minute to get started, a lifetime to master
 
-![Demo](https://livetourlab.com/dev/static/img/screen-rec-10fps-320.gif)
 
 ## Getting started
 
@@ -246,7 +247,7 @@ I also want to express a profound thank you to the amazing Facebook team that op
 
 Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Let's do magic!
 
-![Please both Star and Watch](https://livetourlab.com/dev/static/img/star-watch.gif)
+![Please both Star and Watch](https://livetourlab.com/static/vid/star-watch.gif)
 
 // Anders
 
