@@ -69,6 +69,7 @@ Point the browser as instructed, see build progress in the terminal window.
 
 <a href="https://livetourlab.com" target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/next-step-custom-code.jpg"
 alt="LiveTourLab Demo" width="800" height="427" border="0" /></a>
+
 <i>Hello world is done. Now time for code!</i>
 
 ## Create your Own Component in minutes
