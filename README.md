@@ -10,6 +10,8 @@ Built on top of Facebook's open source [React VR](https://github.com/facebook/re
 " target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
 alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
 
+[a link in new tab](http://livetourlab.com){:target="_blank"}
+
 A live tour is an entirely new media format:
 - [x] 10x faster creation than game engines
 - [x] 10x more interactive than video streaming
