@@ -1,0 +1,36 @@
+{
+  "name": "live-tour-lab",
+  "version": "0.1.2",
+  "description": "Create VR tours. Built on React VR. LiveTourLab is the #1 open source framework and ecosystem for creating Live Tours. Extend with your own VR components in minutes.",
+  "main": "index.js",
+  "homepage": "https://livetourlab.com",
+  "keywords": [
+    "vr",
+    "virtual-reality",
+    "reactvr",
+    "react-vr",
+    "webvr",
+    "react",
+    "360",
+    "panorama",
+    "vive",
+    "oculus",
+    "rift",
+    "cardboard",
+    "daydream",
+    "gear",
+    "livetourlab",
+    "livetour",
+    "live-tour",
+    "vr-tour"
+  ],
+  "files": [
+    "components",
+    "README.md"
+  ],
+  "author": "Anders Larsson",
+  "private": false,
+  "jest": {
+    "preset": "react-vr"
+  }
+}
