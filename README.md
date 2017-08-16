@@ -7,7 +7,7 @@ Built on top of Facebook's open source [React VR](https://github.com/facebook/re
 
 ## Demo (click to open)
 <a href="https://livetourlab.com/tours/3003
-" target="_blank"><img src="https://livetourlab.com/static/vid/screen-rec-shorter-9fps-290.gif"
+" target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
 alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
 
 A live tour is an entirely new media format:
