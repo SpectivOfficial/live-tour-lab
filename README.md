@@ -249,7 +249,7 @@ With love and respect, I invite you to take part in creating this entirely new m
 
 1. If you in any way feel inspired by VR and what it can do for mankind, please Star & Watch this Github repo and take part in its evolution. This is a humble beginning. It took 20 years to democratize communication and information, putting an Internet connected mobile phone in the hand of every person the planet. What you see in the repo today, is not an end result. I have big visions of where we can take VR. Welcome to join me from day 1.
 
-2. Please take my short course to to get up to speed faster. Time is our most precious asset. With great love and care I have therefore crafted a small course in live tour creation, with the ambition to save time. Please take the course and then join me in creating the future. It will be fun.
+2. Please take my short course to get up to speed faster. Time is our most precious asset. With great love and care I have therefore crafted a small course in live tour creation, with the ambition to save time. Please take the course and then join me in creating the future. It will be fun.
 
 I also want to express a profound thank you to the amazing Facebook team that open sourced React VR, which this version of LiveTourLab is built on. We had written 75% of the code on another platform when I took the decision to re-write it on React VR instead. Result became literally 1/10 of the code in 1/10 of the time. Well done building an amazing piece of software! I hope that LiveTourLab will add to Mark's vision of democratizing VR. He talked about it when we met in Jakarta already in 2014. A great visionary!
 
