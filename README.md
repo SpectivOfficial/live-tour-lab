@@ -18,6 +18,7 @@ A live tour is an entirely new media format:
 - [x] 100% open source
 - [x] 1 minute to get started, a lifetime to master
 
+![Demo](https://livetourlab.com/dev/static/img/screen-rec-10fps-320.gif)
 
 ## Getting started
 
