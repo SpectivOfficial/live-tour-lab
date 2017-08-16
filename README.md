@@ -5,6 +5,9 @@
 LiveTourLab is an extensible framework for creating Live VR Tours. Extend with your own VR components in minutes.
 Built on top of Facebook's open source [React VR](https://github.com/facebook/react-vr).
 
+## Demo (click to open)
+[![LiveTourLab Demo](https://livetourlab.com/dev/static/img/screen-rec-10fps-320.gif)](https://livetourlab.com/tours/3003)
+
 A live tour is an entirely new media format:
 - [x] 10x faster creation than game engines
 - [x] 10x more interactive than video streaming
@@ -15,11 +18,6 @@ A live tour is an entirely new media format:
 - [x] 100% open source
 - [x] 1 minute to get started, a lifetime to master
 
-
-## Demo (click to open in new tab)
-<a href="https://livetourlab.com
-" target="_blank" title="Click to open this Live Tour in new tab"><img src="https://livetourlab.com/dev/static/img/screen-rec-10fps-320.gif"
-alt="Live Tour Lab Demo" width="320" height="180" border="0" /></a>
 
 ## Getting started
 
@@ -319,7 +317,7 @@ Move the live-tour-lab directory out of node_modules and into your project direc
 mv node_modules/live-tour-lab ./
 ```
 
-Then modify index.vr.js and change the import statement 
+Then modify index.vr.js and change the import statement
 from:
 ```
 import {LiveTour} from 'live-tour-lab';

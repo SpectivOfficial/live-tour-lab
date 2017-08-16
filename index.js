@@ -41,6 +41,7 @@ export {
     Preload,
     LoadingInVr,
     DevReload,
+    VrLog,
     FadeInView,
     LTPhotoPano,
     LTSound,
