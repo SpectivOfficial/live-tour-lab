@@ -65,7 +65,11 @@ git clone https://github.com/livetourlab/hello-world.git static_assets
 ```
 npm start
 ```
+Point the browser as instructed, see build progress in the terminal window.
 
+<a href="https://livetourlab.com" target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/next-step-custom-code.jpg"
+alt="LiveTourLab Demo" width="800" height="427" border="0" /></a>
+<i>Hello world is done. Now time for code!</i>
 
 ## Create your Own Component in minutes
 
@@ -165,16 +169,16 @@ AppRegistry.registerComponent('MyLiveTour', () => MyLiveTour);
 
 3. __Edit static_assets/hello-world.json__
 
-You indicated above that the Hero component will take care of "heroes" entries. So locate the last scene "BackHome", and add a "heroes" section, as follows. The elements are sent as props to your Hero.js component.
+You indicated above that the Hero component will take care of "heroes" entries. So locate the last scene "Backyard", and add a "heroes" section, as follows. The elements are sent as props to your Hero.js component.
 ```
 ...
 {
-  "id":"BackHome",
+  "id":"Backyard",
   "photopanos":[
-    { "src":"1004-11.jpg","rotateY":350 }
+    {"src":"1004-fraser-11-low.jpg","rotateY":350}
   ],
   "heroes": [
-    { "src": "boss.jpg", "width": 2, "height": 2, "rotateY": 35, "op": 0.1 },
+    { "src": "boss.jpg", "width": 2, "height": 2, "rotateY": 35, "op": 0.9 },
     { "src": "boss.jpg", "width": 2, "height": 2, "rotateY": 325 }
   ],
   "infos":[
@@ -185,13 +189,13 @@ You indicated above that the Hero component will take care of "heroes" entries. 
 
 Reload your browser window and enjoy! :-)
 
-Now add a ?dev=1 to the URL:  http://localhost:8081/vr/?dev=1
+Now add a ?dev=1 to the URL:  http://192.168.1.6:8081/vr/?dev=1#Backyard
 
-With the dev=1 flag, looking down and clicking the semi-transparent circular arrow reloads the json tour definition file. That updates the scene definition while keeping all states intact. Works also a production build of the code. Try changing something in one of the "heroes" entries above and reload the json to instantly see the result.
+With the dev=1 flag, looking down and clicking the semi-transparent circular arrow reloads the json tour definition file, updating the scene definition while keeping all states intact. This works also a production build of the code. Try changing something in one of the "heroes" entries above and reload the json to instantly see the result.
 
 5. __Tour defaults__
 
-A lot of information was the same in the 3 hero entries. While you could change the defaults in your Hero.js component code, it is often the case where you want different looks in different tours. So go ahead and set a default for our tour instead. Add an entry to the defaults section at the top of the json file:
+A lot of information was the same in the 2 hero entries. While you could of course change the defaults in your Hero.js component code, it is often the case that you want different looks in different tours. So go ahead and set a default for our tour instead. Add an entry to the defaults section at the top of the json file:
 ```
 ...
 "defaults": {
@@ -200,7 +204,7 @@ A lot of information was the same in the 3 hero entries. While you could change 
       "width": 2,
       "height": 2
     },
-    "navs": {
+    "infos": {
 ...
 ````
 Now, without changing the code, we can reduce the per-scene markup to just:
@@ -218,7 +222,7 @@ While you can still override the defaults in individual entries eg.
 ```
 ...
   "heroes": [
-    { "rotateY": 35, "op": 0.1, "width": 1 },
+    { "rotateY": 35, "height": 0.5, "width": 0.5 },
     { "rotateY": 325 }
   ],
 ...
@@ -228,13 +232,21 @@ While you can still override the defaults in individual entries eg.
 
 ## Please Star and Watch this Repo!
 
-I know the WHY is usually not in the readme, but I think that is wrong. The WHY and the HOW always beats the WHAT over time. For you to invest your time, I think you would like to know how it is likely to evolve over the years.
+<a href="https://livetourlab.com
+"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/star-watch.gif"
+alt="Please both Star and Watch!" width="320" height="201" border="0" /></a>
 
-We built the world's best live tour platform and now we give it away as open source. We could have sold it, I had a good offer. But I want to do something bigger. Here on Github the world's best minds are found.
+<a href="https://livetourlab.com/tours/3003
+"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
+alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
+
+I know that the greater purpose usually isn't in the readme, but I think that is wrong. The WHY and the HOW always beats the WHAT over time and is thus critical to assess the outlook of any initiative.
+
+We built the world's first platform of this kind, in the hot VR field, and we give it away as open source. We could have sold it, we had several good offers. But I want to do something bigger and it is here on Github that the world's best minds are found.
 
 With love and respect, I invite you to take part in creating this entirely new media format. Here and now, I ask two things from you.
 
-1. Please Star & Watch this Github repo and take part in its evolution, if you in any way feel inspired by VR and what it can do for mankind. This is a humble beginning. It took 20 years to democratize communication and information, putting an Internet connected mobile phone in the hand of every person the planet. What you see in the repo today, is not an end result. I have big visions of where we can take VR. Join me from day 1.
+1. If you in any way feel inspired by VR and what it can do for mankind, please Star & Watch this Github repo and take part in its evolution. This is a humble beginning. It took 20 years to democratize communication and information, putting an Internet connected mobile phone in the hand of every person the planet. What you see in the repo today, is not an end result. I have big visions of where we can take VR. Welcome to join me from day 1.
 
 2. Please take my short course to to get up to speed faster. Time is our most precious asset. With great love and care I have therefore crafted a small course in live tour creation, with the ambition to save time. Please take the course and then join me in creating the future. It will be fun.
 
@@ -246,19 +258,11 @@ I am convinced that VR will change the world, just as telecommunication and the 
 
 Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Let's do magic!
 
-<a href="https://livetourlab.com
-"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/star-watch.gif"
-alt="Please both Star and Watch!" width="320" height="201" border="0" /></a>
-
-<a href="https://livetourlab.com/tours/3003
-"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
-alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
-
 // Anders
 
 ## Please Contribute
 
-This is a beginning. We have around 21 live tour components today and I foresee that we will have 100'ds of components soon, for every application that is suited to the format.
+This is a beginning. We have now 21 live tour components today and I foresee that we will have 100'ds of components soon, for every application that is suited to the format.
 
 Even without any react experience, you can easily build custom components. Just look at the existing components and you'll figure it out easily.
 
@@ -329,7 +333,7 @@ So if you stand in MyLiveTour (see getting started above) and installed through 
 # edit ./package.json and remove live-tour-lab from dependencies
 
 rm -rf node_modules/live-tour-lab
-git clone https://github.com/livetourlab/live-tour-lab.git
+git clone --single-branch https://github.com/livetourlab/live-tour-lab.git
 npm start
 ```
 
