@@ -54,7 +54,7 @@ AppRegistry.registerComponent('MyLiveTour', () => MyLiveTour);
 
 3. __Grab the Hello World Tour__
 
-Replace the static_assets hello-world with the tour media:
+Replace the React VR hello world with the LiveTourLab hello world:
 ```
 rm -rf static_assets
 git clone https://github.com/livetourlab/hello-world.git static_assets
