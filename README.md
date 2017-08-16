@@ -19,6 +19,8 @@ alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
 - [x] 0 lock-in with static build
 - [x] 1 minute to get started, a lifetime to master
 
+![Define in json extend with code](https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/json-recording-crf23c-2fps-800.gif "Define in json extend with code")
+
 
 
 ## Getting started
@@ -55,8 +57,10 @@ AppRegistry.registerComponent('MyLiveTour', () => MyLiveTour);
 
 3. __Grab the Hello World Tour__
 
+Replace the static_assets hello-world with the tour media:
 ```
-(coming later today)
+rm -rf static_assets
+git clone https://github.com/livetourlab/hello-world.git static_assets
 ```
 
 4. __Run your first Live Tour!__
@@ -245,7 +249,7 @@ I am convinced that VR will change the world, just as telecommunication and the 
 
 Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Let's do magic!
 
-![Please both Star and Watch](https://livetourlab.com/static/vid/star-watch.gif)
+![Please both Star and Watch](https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/star-watch.gif "Please both Star And Watch!")
 
 <a href="https://livetourlab.com/tours/3003
 "><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
