@@ -186,11 +186,9 @@ Reload your browser window and enjoy! :-)
 
 Now add a ?dev=1 to the URL:  http://localhost:8081/vr/?dev=1
 
-Then looking down and clicking the semi-transparent circular arrow reloads the json tour definition file. That updates the scene definition while keeping all states intact. Works also a production build of the code.
+With the dev=1 flag, looking down and clicking the semi-transparent circular arrow reloads the json tour definition file. That updates the scene definition while keeping all states intact. Works also a production build of the code. Try changing something in one of the "heroes" entries above and reload the json to instantly see the result.
 
-Try changing something in one of the "heroes" entries above and reload the json to instantly see the result.
-
-5. __Use tour defaults__
+5. __Tour defaults__
 
 A lot of information was the same in the 3 hero entries. While you could change the defaults in your Hero.js component code, it is often the case where you want different looks in different tours. So go ahead and set a default for our tour instead. Add an entry to the defaults section at the top of the json file:
 ```
@@ -229,19 +227,19 @@ While you can still override the defaults in individual entries eg.
 
 ## Please Star and Watch this Repo!
 
-I know the WHY is usually not in the readme, but I think that is wrong. What I have learned over the decades is that the WHY and the HOW always beats the WHAT given some time.
+I know the WHY is usually not in the readme, but I think that is wrong. The WHY and the HOW always beats the WHAT over time. For you to invest your time, I think you would like to know how it is likely to evolve over the years.
 
 We built the world's best live tour platform and now we give it away as open source. We could have sold it, I had a good offer. But I want to do something bigger. Here on Github the world's best minds are found.
 
 With love and respect, I invite you to take part in creating this entirely new media format. Here and now, I ask two things from you.
 
-1. Please Star & Watch this Github repo and take part in its evolution, if you in any way feel inspired by VR and what it can do for mankind. This is a humble beginning. It took 20 years to democratize communication and information, putting an Internet connected mobile phone in the hand of every person the planet. This is not the end result, I have big visions of where we can take VR. Join me from day 1.
+1. Please Star & Watch this Github repo and take part in its evolution, if you in any way feel inspired by VR and what it can do for mankind. This is a humble beginning. It took 20 years to democratize communication and information, putting an Internet connected mobile phone in the hand of every person the planet. What you see in the repo today, is not an end result. I have big visions of where we can take VR. Join me from day 1.
 
 2. Please take my short course to to get up to speed faster. Time is our most precious asset. With great love and care I have therefore crafted a small course in live tour creation, with the ambition to save time. Please take the course and then join me in creating the future. It will be fun.
 
-I also want to express a profound thank you to the amazing Facebook team that open sourced React VR, which this version of LiveTourLab is built on. We had written 75% of the code on another platform when I took the decision to re-write it on React VR instead. Result became 1/10 of the code in 1/10 of the time. Well done building an amazing piece of software, and I hope that LiveTourLab will add to Mark's vision of democratizing VR. He talked about it when we met in Jakarta already in 2014. A great visionary.
+I also want to express a profound thank you to the amazing Facebook team that open sourced React VR, which this version of LiveTourLab is built on. We had written 75% of the code on another platform when I took the decision to re-write it on React VR instead. Result became literally 1/10 of the code in 1/10 of the time. Well done building an amazing piece of software! I hope that LiveTourLab will add to Mark's vision of democratizing VR. He talked about it when we met in Jakarta already in 2014. A great visionary!
 
-I've had the immense blessing of getting to play a role in changing the world once already, in telecommunication. 7.1 billion mobile subscriptions now exceed the world population. Facebook & Google's 2-3 billion users still has a way to go.
+I've had the immense blessing of getting to play a role in changing the world once already, in telecommunication. 7.1 billion mobile subscriptions now exceed the world population. Facebook & Google's 2-3 billion users still has a way to go ;-)
 
 I am convinced that VR will change the world, just as telecommunication and the Internet did. Transferring immersive experiences is profoundly different from transferring information. I have decided to try to play a part in changing the world a 2nd time, with VR, honoring my roots in computer graphics. “Those who are crazy enough to think they can change the world usually do.”
 
@@ -250,14 +248,14 @@ Again, I have put my heart and soul into this, please do me the honor of both St
 ![Please both Star and Watch](https://livetourlab.com/static/vid/star-watch.gif)
 
 <a href="https://livetourlab.com/tours/3003
-" target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
+"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
 alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
 
 // Anders
 
 ## Please Contribute
 
-This is a beginning. We have around 20 live tour components today and I foresee that we will have hundreds of components soon, for every application that is suited to the format.
+This is a beginning. We have around 21 live tour components today and I foresee that we will have 100'ds of components soon, for every application that is suited to the format.
 
 Even without any react experience, you can easily build custom components. Just look at the existing components and you'll figure it out easily.
 
@@ -341,11 +339,9 @@ to:
 import {LiveTour} from './live-tour-lab';
 ```
 
-That is it. Just continue running your project and edit as much as you want in the live-tour-lab source.
-
-When you have produced something great, just publish to github from inside the live-tour-lab directory.
+That is it. Your project still runs. Now go ahead and edit the source. When you have produced something great, just push to github from inside the live-tour-lab directory.
 
 
 ## Component Reference Documentation
 Please find the full documentation on:
-#### [livetourlab.com](https://livetourlab.com/)
+#### [livetourlab.com](https://livetourlab.com)
