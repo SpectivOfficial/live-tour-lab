@@ -1,5 +1,4 @@
-<h1 align="center">LiveTourLab</h1>
-
+<h1 align="center"><img width="500" height="75" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
 LiveTourLab is a framework for creating Live Tours.
