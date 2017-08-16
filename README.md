@@ -320,7 +320,7 @@ In progress:
 
 Easy!
 
-To contribute to the LiveTourLab core, you need to work with the source code. Since the React VR structure is a bit different, I tried many different variants and the simplest one is what I ended up using:
+Welcome to contribute to the LiveTourLab core by working the source code. Since the React VR structure is a bit different, I tried many different variants for folder structure, symlinks and hard links. Finally I ended up using a much simpler solution:
 
 Just move the live-tour-lab directory out of node_modules and into your project directory.
 
@@ -330,19 +330,10 @@ So if you stand in MyLiveTour (see getting started above) and installed through 
 
 rm -rf node_modules/live-tour-lab
 git clone https://github.com/livetourlab/live-tour-lab.git
+npm start
 ```
 
-Then modify index.vr.js and change the import statement
-from:
-```
-import {LiveTour} from 'live-tour-lab';
-```
-to:
-```
-import {LiveTour} from './live-tour-lab';
-```
-
-That is it. Your project still runs. Now go ahead and edit the source. When you have produced something great, just push to github from inside the live-tour-lab directory.
+That is it. Your project still runs. No need to symlink or manage dependencies. Now go ahead and edit the source. When you have produced something great, just push to github from inside the live-tour-lab directory.
 
 
 ## Component Reference Documentation
