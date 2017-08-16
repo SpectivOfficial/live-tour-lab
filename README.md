@@ -19,9 +19,6 @@ alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
 - [x] 0 lock-in with static build
 - [x] 1 minute to get started, a lifetime to master
 
-![Define in json extend with code](https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/json-recording-crf23c-2fps-800.gif "Define in json extend with code")
-
-
 
 ## Getting started
 
@@ -249,7 +246,9 @@ I am convinced that VR will change the world, just as telecommunication and the 
 
 Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Let's do magic!
 
-![Please both Star and Watch](https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/star-watch.gif "Please both Star And Watch!")
+<a href="https://livetourlab.com
+"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/star-watch.gif"
+alt="Please both Star and Watch!" width="320" height="201" border="0" /></a>
 
 <a href="https://livetourlab.com/tours/3003
 "><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
@@ -347,5 +346,10 @@ That is it. Your project still runs. Now go ahead and edit the source. When you 
 
 
 ## Component Reference Documentation
+
+<a href="https://livetourlab.com
+"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/json-recording-crf23c-2fps-800.gif"
+alt="[Define in json extend with code" width="400" height="225" border="0" /></a>
+
 Please find the full documentation on:
 #### [livetourlab.com](https://livetourlab.com)
