@@ -1,13 +1,13 @@
 <h1 align="center"><img width="500" height="75" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
-LiveTourLab is a framework for creating Live Tours.
-Add [React VR](https://github.com/facebook/react-vr) components.
+LiveTourLab is a framework for creating Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
 
-## Demo (click to open)
+## Demo (click to try!)
 <a href="https://livetourlab.com/tours/3003
-" target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
-alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
+" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29448230-d13fae4a-841f-11e7-8735-f930536689e9.gif"
+alt="LiveTourLab Demo" width="300" height="169" border="0" /></a><br/>
+Click to try live tour
 
 - [x] 10x more interactive than 360 videos
 - [x] 10x more immersive than 2D
@@ -66,8 +66,8 @@ npm start
 ```
 Point the browser as instructed, see build progress in the terminal window.
 
-<a href="https://livetourlab.com" target="_blank"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/next-step-custom-code.jpg"
-alt="LiveTourLab Demo" width="800" height="427" border="0" /></a>
+<a href="https://livetourlab.com" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29448343-6a0da406-8420-11e7-8cd1-36eedbfc688e.jpg"
+alt="LiveTourLab Demo" width="800" border="0" /></a>
 
 <i>Hello world is done. Now time for code!</i>
 
@@ -233,12 +233,12 @@ While you can still override the defaults in individual entries eg.
 ## Please Star and Watch this Repo!
 
 <a href="https://livetourlab.com
-"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/star-watch.gif"
-alt="Please both Star and Watch!" width="320" height="201" border="0" /></a>
+"><img src="https://user-images.githubusercontent.com/13546743/29448371-8d45c700-8420-11e7-9c6c-f6f08981c36c.gif"
+alt="Please both Star and Watch!" width="320" border="0" /></a>
 
 <a href="https://livetourlab.com/tours/3003
-"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/screen-rec-shorter-9fps-290.gif"
-alt="LiveTourLab Demo" width="290" height="163" border="0" /></a>
+" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29448230-d13fae4a-841f-11e7-8735-f930536689e9.gif"
+alt="LiveTourLab Demo" width="300" height="169" border="0" /></a><br/>
 
 I know that the greater purpose usually isn't in the readme, but I think that is wrong. The WHY and the HOW always beats the WHAT over time and is thus critical to assess the outlook of any initiative.
 
@@ -343,7 +343,7 @@ That is it. Your project still runs. No need to symlink or manage dependencies. 
 ## Component Reference Documentation
 
 <a href="https://livetourlab.com
-"><img src="https://raw.githubusercontent.com/livetourlab/live-tour-lab/assets/screen-rec/json-recording-crf23c-2fps-800.gif"
+"><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
 alt="[Define in json extend with code" width="400" height="225" border="0" /></a>
 
 Please find the full documentation on:
