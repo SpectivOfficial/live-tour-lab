@@ -26,6 +26,19 @@ alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 lock-in with stati
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 1 minute to get started, a lifetime to master<br/>
 
 
+<a href="https://livetourlab.com
+"><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
+alt="[Define in json extend with code" width="500" height="282" border="0" /></a>
+
+
+## Please Star and Watch!
+
+<a href="https://livetourlab.com
+"><img src="https://user-images.githubusercontent.com/13546743/29448371-8d45c700-8420-11e7-9c6c-f6f08981c36c.gif"
+alt="Please both Star and Watch!" width="320" border="0" /></a>
+
+
+
 ## Getting started
 
 1. __Create a new React VR & LiveTourLab project__
@@ -236,16 +249,7 @@ While you can still override the defaults in individual entries eg.
 ```
 
 
-
-## Please Star and Watch this Repo!
-
-<a href="https://livetourlab.com
-"><img src="https://user-images.githubusercontent.com/13546743/29448371-8d45c700-8420-11e7-9c6c-f6f08981c36c.gif"
-alt="Please both Star and Watch!" width="320" border="0" /></a>
-
-<a href="https://livetourlab.com/tours/3003
-" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29448230-d13fae4a-841f-11e7-8735-f930536689e9.gif"
-alt="LiveTourLab Demo" width="300" height="169" border="0" /></a><br/>
+## Please Contribute
 
 I know that the greater purpose usually isn't in the readme, but I think that is wrong. The WHY and the HOW always beats the WHAT over time and is thus critical to assess the outlook of any initiative.
 
@@ -264,10 +268,6 @@ I've had the immense blessing of getting to play a role in changing the world on
 I am convinced that VR will change the world, just as telecommunication and the Internet did. Transferring immersive experiences is profoundly different from transferring information. I have decided to try to play a part in changing the world a 2nd time, with VR, honoring my roots in computer graphics. “Those who are crazy enough to think they can change the world usually do.”
 
 Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Let's do magic!
-
-// Anders
-
-## Please Contribute
 
 This is a beginning. We have now 21 live tour components today and I foresee that we will have 100'ds of components soon, for every application that is suited to the format.
 
@@ -327,31 +327,27 @@ Done:
 In progress:
 - [ ] World rotation instead of scene rotation to avoid the rotation flicker or use fade-to-black
 
-## Working with the source code
+// Anders
 
-Easy!
 
-Welcome to contribute to the LiveTourLab core by working the source code. Since the React VR structure is a bit different, I tried many different variants for folder structure, symlinks and hard links. Finally I ended up using a much simpler solution:
+## Compiling from Source
 
-Just move the live-tour-lab directory out of node_modules and into your project directory.
+Welcome to contribute to the LiveTourLab core by working the source code. Given the React VR project structure, I tried many different variants for folder structure, symlinks and hard links. Finally I ended up using a much simpler solution, which is what I recommend: Just move the live-tour-lab directory out of node_modules and into your project directory.
 
-So if you stand in MyLiveTour (see getting started above) and installed through npm, do:
+Stand in the project folder, MyLiveTour in the getting started example above, and do:
 ```
 # edit ./package.json and remove live-tour-lab from dependencies
-
 rm -rf node_modules/live-tour-lab
 git clone  https://github.com/livetourlab/live-tour-lab.git
 npm start
 ```
 
-That is it. Your project still runs. No need to symlink or manage dependencies. Now go ahead and edit the source. When you have produced something great, just push to github from inside the live-tour-lab directory.
+That is it. Your project still runs. No need to symlink or manage dependencies. Now go ahead and edit the source. When you have produced something great, just push to github from inside the live-tour-lab directory  (not project directory).
 
 
 ## Component Reference Documentation
 
-<a href="https://livetourlab.com
-"><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
-alt="[Define in json extend with code" width="400" height="225" border="0" /></a>
-
 Please find the full documentation on:
 #### [livetourlab.com](https://livetourlab.com)
+
+Thank you!
