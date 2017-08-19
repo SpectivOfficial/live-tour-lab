@@ -1,4 +1,4 @@
-<h1 align="center"><img width="500" height="75" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
+<h1 align="center"><img width="500" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
 LiveTourLab is a framework for creating Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
@@ -6,7 +6,7 @@ LiveTourLab is a framework for creating Live Tours. 21 ready components, easily 
 ## Demo (click play to enter)
 <a href="https://livetourlab.com/tours/3003
 " target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29484526-cbd21df0-84ea-11e7-87e8-55dc6844f29c.gif"
-alt="LiveTourLab Demo" width="300" height="169" border="0" /></a><br/>
+alt="LiveTourLab Demo" width="300" border="0" /></a><br/>
 
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more interactive than 360 videos<br/>
@@ -35,7 +35,7 @@ alt="Please both Star and Watch!" width="320" border="0" /></a>
 
 <a href="https://livetourlab.com
 "><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
-alt="[Define in json extend with code" width="500" height="282" border="0" /></a>
+alt="[Define in json extend with code" width="500" border="0" /></a>
 
 
 
