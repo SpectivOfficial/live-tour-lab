@@ -26,16 +26,17 @@ alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 lock-in with stati
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 1 minute to get started, a lifetime to master<br/>
 
 
-<a href="https://livetourlab.com
-"><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
-alt="[Define in json extend with code" width="500" height="282" border="0" /></a>
-
-
 ## Please Star and Watch!
 
 <a href="https://livetourlab.com
 "><img src="https://user-images.githubusercontent.com/13546743/29448371-8d45c700-8420-11e7-9c6c-f6f08981c36c.gif"
 alt="Please both Star and Watch!" width="320" border="0" /></a>
+
+
+<a href="https://livetourlab.com
+"><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
+alt="[Define in json extend with code" width="500" height="282" border="0" /></a>
+
 
 
 
