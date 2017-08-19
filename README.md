@@ -3,20 +3,27 @@
 
 LiveTourLab is a framework for creating Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
 
-## Demo (click to try!)
+## Demo (click play to enter)
 <a href="https://livetourlab.com/tours/3003
-" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29448230-d13fae4a-841f-11e7-8735-f930536689e9.gif"
+" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29484526-cbd21df0-84ea-11e7-87e8-55dc6844f29c.gif"
 alt="LiveTourLab Demo" width="300" height="169" border="0" /></a><br/>
-Click to try live tour
 
-- [x] 10x more interactive than 360 videos
-- [x] 10x more immersive than 2D
-- [x] 10x more extensible than GUI apps
-- [x] 10x faster creation than game engine VR
-- [x] 100% open source
-- [x] 100% standard camera compatible
-- [x] 0 lock-in with static build
-- [x] 1 minute to get started, a lifetime to master
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more interactive than 360 videos<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more immersive than 2D<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more extensible than GUI apps<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x faster creation than game engine VR<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% open source<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% standard camera compatible<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 lock-in with static build<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 1 minute to get started, a lifetime to master<br/>
 
 
 ## Getting started
@@ -333,7 +340,7 @@ So if you stand in MyLiveTour (see getting started above) and installed through 
 # edit ./package.json and remove live-tour-lab from dependencies
 
 rm -rf node_modules/live-tour-lab
-git clone --single-branch https://github.com/livetourlab/live-tour-lab.git
+git clone  https://github.com/livetourlab/live-tour-lab.git
 npm start
 ```
 
