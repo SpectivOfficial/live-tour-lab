@@ -23,7 +23,7 @@ alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% standard camera
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 lock-in with static build<br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
-alt="LiveTourLab Demo" width="16" height="16" border="0" /> 1 minute to get started, a lifetime to master<br/>
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> Minutes to get started, a lifetime to master<br/>
 
 
 ## Please Star and Watch!
@@ -33,6 +33,7 @@ alt="LiveTourLab Demo" width="16" height="16" border="0" /> 1 minute to get star
 alt="Please both Star and Watch!" width="320" border="0" /></a>
 
 
+The repo includes 20+ ready components for Navigation, Cards, blending photography and video and much more, easily mixed with your own React VR code. Once done, you define the tour in a separate JSON file, meaning you can use the same all-static code build for many tours:
 <a href="https://livetourlab.com
 "><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
 alt="[Define in json extend with code" width="500" border="0" /></a>
@@ -92,11 +93,11 @@ alt="LiveTourLab Demo" width="800" border="0" /></a>
 
 <i>Hello world is done. Now time for code!</i>
 
-## Create your Own Component in minutes
+## Create New React VR Component
 
 1. __Create a new file Hero.js__
 
-Surely you feel a pressing need for a component that displays my rotating portrait in your tours. Let's create one! Create a new file in your main directory, MyLiveTour/Hero.js with the contents below
+Let's add a new component. Create a new file in your main directory, MyLiveTour/Hero.js with the contents below
 ```
 import React from 'react';
 import {
@@ -208,7 +209,7 @@ You indicated above that the Hero component will take care of "heroes" entries. 
 
 4. __Reload browser__
 
-Reload your browser window and enjoy! :-)
+Reload your browser window and enjoy! ;-)
 
 Now add a ?dev=1 to the URL:  http://192.168.1.6:8081/vr/?dev=1#Backyard
 
@@ -216,7 +217,7 @@ With the dev=1 flag, looking down and clicking the semi-transparent circular arr
 
 5. __Tour defaults__
 
-A lot of information was the same in the 2 hero entries. While you could of course change the defaults in your Hero.js component code, it is often the case that you want different looks in different tours. So go ahead and set a default for our tour instead. Add an entry to the defaults section at the top of the json file:
+A lot of information was the same in the 2 hero entries. While you could change the defaults in your Hero.js component code, it is often the case that you want different looks in different tours. So go ahead and set a default for our tour instead. Add an entry to the defaults section at the top of the json file:
 ```
 ...
 "defaults": {
@@ -250,41 +251,31 @@ While you can still override the defaults in individual entries eg.
 ```
 
 
-## Please Contribute
+## Please Contribute for a Better Future
 
-I know that the greater purpose usually isn't in the readme, but I think that is wrong. The WHY and the HOW always beats the WHAT over time and is thus critical to assess the outlook of any initiative.
+First TV and later YouTube is turning the world population into passive addicts of entertainment. When my children grow up, I want media to instead fuel their imagination, let them be active participants, help them be present in the moment, and feel the impact of life changing experiences, even if far away.
 
-We built the world's first platform of this kind, in the hot VR field, and we give it away as open source. We could have sold it, we had several good offers. But I want to do something bigger and it is here on Github that the world's best minds are found.
+With love and respect, I invite you to take part in creating this entirely new media format.
 
-With love and respect, I invite you to take part in creating this entirely new media format. Here and now, I ask two things from you.
+We are making a more interactive, more immersive, more extensible, faster to create, more standards-compatible format for experiences.
 
-1. If you in any way feel inspired by VR and what it can do for mankind, please Star & Watch this Github repo and take part in its evolution. This is a humble beginning. It took 20 years to democratize communication and information, putting an Internet connected mobile phone in the hand of every person the planet. What you see in the repo today, is not an end result. I have big visions of where we can take VR. Welcome to join me from day 1.
+Creating a new media format is big. It is so big, it is something that one of the giant companies would do in a gigantic project. So here I am, asking you to join me in doing just that, with the power of open source.
 
-2. Please take my short course to get up to speed faster. Time is our most precious asset. With great love and care I have therefore crafted a small course in live tour creation, with the ambition to save time. Please take the course and then join me in creating the future. It will be fun.
+If you want to do something big, you have to say so, and then stand up for it when people laugh at you, or you never get there. I have had the incredible blessing to get to play a part in changing the world once already, in another industry, and with your help, we can do it again.
 
-I also want to express a profound thank you to the amazing Facebook team that open sourced React VR, which this version of LiveTourLab is built on. We had written 75% of the code on another platform when I took the decision to re-write it on React VR instead. Result became literally 1/10 of the code in 1/10 of the time. Well done building an amazing piece of software! I hope that LiveTourLab will add to Mark's vision of democratizing VR. He talked about it when we met in Jakarta already in 2014. A great visionary!
+If you in any way feel inspired by VR and what it can do for mankind, please Star & Watch this Github repo and take part in its evolution. This is a humble beginning. It took us 20 years last time, but we reached almost every person on the planet, with twice as many users as Google & Facebook combined. Big things can be done.
 
-I've had the immense blessing of getting to play a role in changing the world once already, in telecommunication. 7.1 billion mobile subscriptions now exceed the world population. Facebook & Google's 2-3 billion users still has a way to go ;-)
+What you see in this repo is a beginning, not an end. It is today 21 components making it easier to create tours. We needs 100'ds. As all cinematic VR content of today, the experience suffers from lack of parallax responsiveness, too slow hardware to keep up with the resolution needed, bulky media files, expensive cameras, and a million other issues. We will solve all of that.
 
-I am convinced that VR will change the world, just as telecommunication and the Internet did. Transferring immersive experiences is profoundly different from transferring information. I have decided to try to play a part in changing the world a 2nd time, with VR, honoring my roots in computer graphics. “Those who are crazy enough to think they can change the world usually do.”
+Dream big, start small, begin now.
 
-Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Let's do magic!
+Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Magic can be done, one small step at a time.
 
-This is a beginning. We have now 21 live tour components today and I foresee that we will have 100'ds of components soon, for every application that is suited to the format.
+Welcome to send me an email directly. I have always put pride in being accessible and I look forward to hearing from you: anders@livetourlab.com
 
-Even without any react experience, you can easily build custom components. Just look at the existing components and you'll figure it out easily.
+Immediate development requests. If you have other ideas, please write to me as well.
 
-Personally I had completely switched to Vue for my front-ends, but I must say I like React for VR, it is well fit for this more programmatic model.
-
-Just define a namespace for the json markup and follow the example above. When done, please contribute your creation to the repo if you think it is of general interest.
-
-When integrating your component into the LiveTourLab core main repo, you can also receive callback functions to your components to update the tour state, similar to the Navigation component.
-
-Welcome to send me an email directly. I'm the founder and main developer. I have always put pride in being accessible and I look forward to hearing from you: anders@livetourlab.com
-
-Development requests. Please pick up any of these, work with me and we will check in your creation into the main repo. If you have other ideas, please write to me as well.
-
-Immediate contribution wanted:
+Short term contribution wanted:
 - [ ] 3PP video players for 2D videos
 - [ ] 3PP video players for Pano videos
 - [ ] Model: Pick up and rotate a product.
@@ -348,7 +339,7 @@ That is it. Your project still runs. No need to symlink or manage dependencies. 
 
 ## Component Reference Documentation
 
-Please find the full documentation on:
-#### [livetourlab.com](https://livetourlab.com)
+Please find the component reference documentation on:
+#### [livetourlab.com/docs](https://livetourlab.com/docs)
 
 Thank you!
