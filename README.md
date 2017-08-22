@@ -336,9 +336,16 @@ npm start
 That is it. Your project still runs. No need to symlink or manage dependencies. Now go ahead and edit the source. When you have produced something great, just push to github from inside the live-tour-lab directory  (not project directory).
 
 
+## License
+
+Apache License Version 2.0
+
+
 ## Component Reference Documentation
 
 Please find the component reference documentation on:
 #### [livetourlab.com/docs](https://livetourlab.com/docs)
+
+
 
 Thank you!
