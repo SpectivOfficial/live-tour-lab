@@ -33,7 +33,8 @@ alt="LiveTourLab Demo" width="16" height="16" border="0" /> Minutes to get start
 alt="Please both Star and Watch!" width="320" border="0" /></a>
 
 
-The repo includes 20+ ready components for Navigation, Cards, blending photography and video and much more, easily mixed with your own React VR code. Once done, you define the tour in a separate JSON file, meaning you can use the same all-static code build for many tours:
+The repo includes components for navigation, cards, preloading, blending photography and video and much more, easily mixed with your own React VR code. Once done, you define the tour in a separate JSON file, meaning you can use the same all-static code build for many tours:
+
 <a href="https://livetourlab.com
 "><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
 alt="[Define in json extend with code" width="500" border="0" /></a>
@@ -265,17 +266,15 @@ If you want to do something big, you have to say so, and then stand up for it wh
 
 If you in any way feel inspired by VR and what it can do for mankind, please Star & Watch this Github repo and take part in its evolution. This is a humble beginning. It took us 20 years last time, but we reached almost every person on the planet, with twice as many users as Google & Facebook combined. Big things can be done.
 
-What you see in this repo is a beginning, not an end. It is today 21 components making it easier to create tours. We needs 100'ds. As all cinematic VR content of today, the experience suffers from lack of parallax responsiveness, too slow hardware to keep up with the resolution needed, bulky media files, expensive cameras, and a million other issues. We will solve all of that.
+What you see in this repo is today 21 components making it easier to create tours. We needs 100'ds. As all cinematic VR content of today, the experience suffers from lack of parallax responsiveness, too slow hardware to keep up with the resolution needed, bulky media files, expensive cameras, and a million other issues. We will solve all of that.
 
 Dream big, start small, begin now.
 
-Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo. Magic can be done, one small step at a time.
+Again, I have put my heart and soul into this, please do me the honor of both Starring and Watching the Repo.
 
 Welcome to send me an email directly. I have always put pride in being accessible and I look forward to hearing from you: anders@livetourlab.com
 
-Immediate development requests. If you have other ideas, please write to me as well.
-
-Short term contribution wanted:
+Short term contribution wanted. If you have other ideas, please write to me as well.
 - [ ] 3PP video players for 2D videos
 - [ ] 3PP video players for Pano videos
 - [ ] Model: Pick up and rotate a product.
