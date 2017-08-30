@@ -4,7 +4,7 @@
 LiveTourLab is a framework for creating Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
 
 ## Demo (click play to enter)
-<a href="https://livetourlab.com/tours/3003
+<a href="https://livetourlab.com/tours/3004
 " target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29484526-cbd21df0-84ea-11e7-87e8-55dc6844f29c.gif"
 alt="LiveTourLab Demo" width="300" border="0" /></a><br/>
 
