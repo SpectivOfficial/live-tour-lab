@@ -32,8 +32,7 @@ alt="LiveTourLab Demo" width="16" height="16" border="0" /> Minutes to get start
 "><img src="https://user-images.githubusercontent.com/13546743/29448371-8d45c700-8420-11e7-9c6c-f6f08981c36c.gif"
 alt="Please both Star and Watch!" width="320" border="0" /></a>
 
-
-The repo includes components for navigation, cards, preloading, blending photography and video and much more, easily mixed with your own React VR code. Once done, you define the tour in a separate JSON file, meaning you can use the same all-static code build for many tours:
+The repo includes components for navigation, cards, preloading, blending photography and video and much more. Easily add your own React VR code. Once done, you define the tour in a separate JSON file, meaning you can use the same all-static code build for many tours:
 
 <a href="https://livetourlab.com
 "><img src="https://user-images.githubusercontent.com/13546743/29448460-f3eabff6-8420-11e7-90fb-f4dbc7b8b28b.gif"
@@ -89,7 +88,7 @@ npm start
 ```
 Point the browser as instructed, see build progress in the terminal window.
 
-<a href="https://livetourlab.com" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29448343-6a0da406-8420-11e7-8cd1-36eedbfc688e.jpg"
+<a href="https://livetourlab.com" target="_blank"><img src="https://user-images.githubusercontent.com/13546743/29866239-092a08d8-8da2-11e7-8b44-82bf00fbebf4.jpg"
 alt="LiveTourLab Demo" width="800" border="0" /></a>
 
 <i>Hello world is done. Now time for code!</i>
@@ -254,7 +253,7 @@ While you can still override the defaults in individual entries eg.
 
 ## Please Contribute for a Better Future
 
-First TV and later YouTube is turning the world population into passive addicts of entertainment. When my children grow up, I want media to instead fuel their imagination, let them be active participants, help them be present in the moment, and feel the impact of life changing experiences, even if far away.
+TV, YouTube and Netflix is turning the world population into passive addicts of entertainment. When my children grow up, I want media to instead fuel their imagination, let them be active participants, help them be present in the moment, and feel the impact of life changing experiences, even if far away.
 
 With love and respect, I invite you to take part in creating this entirely new media format.
 
