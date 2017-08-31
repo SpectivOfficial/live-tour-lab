@@ -56,7 +56,7 @@ npm install
 2. __index.vr.js__
 
 While waiting for install, open index.vr.js and change it to:
-```
+```jsx
 import React from 'react';
 import { AppRegistry } from 'react-vr';
 
@@ -98,7 +98,7 @@ alt="LiveTourLab Demo" width="800" border="0" /></a>
 1. __Create a new file Hero.js__
 
 Let's add a new component. Create a new file in your main directory, MyLiveTour/Hero.js with the contents below
-```
+```jsx
 import React from 'react';
 import {
   asset,
@@ -168,7 +168,7 @@ export default class Hero extends React.Component {
 2. __index.vr.js__
 
 Open index.vr.js again. Import your new component and send it as a child to LiveTourLab. Full code again:
-```
+```jsx
 import React from 'react';
 import { AppRegistry } from 'react-vr';
 
