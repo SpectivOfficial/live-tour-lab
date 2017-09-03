@@ -1,7 +1,7 @@
 <h1 align="center"><img width="500" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
-LiveTourLab is a framework for creating Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
+LiveTourLab is a framework for creating VR Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
 
 ## Demo (click play to enter)
 <a href="https://livetourlab.com/tours/3004
@@ -11,19 +11,19 @@ alt="LiveTourLab Demo" width="300" border="0" /></a><br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more interactive than 360 videos<br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
-alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more immersive than 2D<br/>
-<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
-alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more extensible than GUI apps<br/>
-<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x faster creation than game engine VR<br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
-alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% open source<br/>
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 10x more extensible than GUI authoring tools<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% cross-platform including custom code <br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
 alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% standard camera compatible<br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
-alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 lock-in with static build<br/>
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 100% open source<br/>
 <img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
-alt="LiveTourLab Demo" width="16" height="16" border="0" /> Minutes to get started, a lifetime to master<br/>
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 server lock-in with static build<br/>
+<img src="https://user-images.githubusercontent.com/13546743/29484640-247e4350-84ed-11e7-9fdb-1c9d4cadb57c.png"
+alt="LiveTourLab Demo" width="16" height="16" border="0" /> 0 effort to start, a lifetime to master<br/>
 
 
 ## Please Star and Watch!
@@ -59,8 +59,7 @@ While waiting for install, open index.vr.js and change it to:
 ```jsx
 import React from 'react';
 import { AppRegistry } from 'react-vr';
-
-import {LiveTour} from 'live-tour-lab';
+import { LiveTour } from 'live-tour-lab';
 
 export default class MyLiveTour extends React.Component {
   render() {
@@ -171,8 +170,7 @@ Open index.vr.js again. Import your new component and send it as a child to Live
 ```jsx
 import React from 'react';
 import { AppRegistry } from 'react-vr';
-
-import {LiveTour} from 'live-tour-lab';
+import { LiveTour } from 'live-tour-lab';
 import Hero from './Hero';
 
 export default class MyLiveTour extends React.Component {
