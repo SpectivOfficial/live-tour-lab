@@ -1,7 +1,7 @@
 <h1 align="center"><img width="500" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
-LiveTourLab is a framework for creating VR Live Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
+LiveTourLab is a framework for creating Live VR Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
 
 ## Demo (click play to enter)
 <a href="https://livetourlab.com/tours/3004
