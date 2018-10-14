@@ -4,7 +4,7 @@ import {
   View,
   asset,
   Text,
-} from 'react-vr';
+} from 'react-360';
 
 import FadeInView from '../ltwrap/FadeInView';
 

@@ -3,7 +3,7 @@ import {
   asset,
   View,
   Sound,
-} from 'react-vr';
+} from 'react-360';
 
 // Format: { src: 'sparrow3.mp3', volume: 0.9, rotateY: 60 },
 

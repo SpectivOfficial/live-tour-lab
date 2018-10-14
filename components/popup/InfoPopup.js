@@ -5,7 +5,7 @@ import {
   View,
   Animated,
   NativeModules,
-} from 'react-vr';
+} from 'react-360';
 
 //import Linking from 'Linking';
 import {Linking} from 'react-native';

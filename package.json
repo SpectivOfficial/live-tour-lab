@@ -8,7 +8,7 @@
     "vr",
     "virtual-reality",
     "reactvr",
-    "react-vr",
+    "react-360",
     "webvr",
     "react",
     "360",
@@ -31,6 +31,6 @@
   "author": "Anders Larsson",
   "private": false,
   "jest": {
-    "preset": "react-vr"
+    "preset": "react-360"
   }
 }

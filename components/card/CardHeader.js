@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Text,
   View,
-} from 'react-vr';
+} from 'react-360';
 
 export default class CardHeader extends React.Component {
   static defaultProps = {

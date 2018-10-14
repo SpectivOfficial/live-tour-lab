@@ -4,7 +4,7 @@ import {
   MediaPlayerState,
   View,
   Video,
-} from 'react-vr';
+} from 'react-360';
 
 export default class CardVideo extends React.Component {
   static defaultProps = {

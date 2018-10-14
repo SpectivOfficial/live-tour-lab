@@ -14,14 +14,14 @@ import {
   MediaPlayerState,
   Scene,
   VrHeadModel,
-} from 'react-vr';
+} from 'react-360';
 
 //import Linking from 'Linking';
 import {Linking} from 'react-native';
 
 //import {History} from 'react-native';
 //import History from 'History';
-import { NativeModules } from 'react-vr';  // Trying this for History instead
+import { NativeModules } from 'react-360';  // Trying this for History instead
 
 import { Easing } from 'react-native';
 

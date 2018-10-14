@@ -4,7 +4,7 @@ import {
   VrHeadModel,
   View,
   Text,
-} from 'react-vr';
+} from 'react-360';
 
 // Todo: Extend this component with functionality to clear logs, filter them, open/close view etc.
 

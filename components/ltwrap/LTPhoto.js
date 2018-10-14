@@ -3,7 +3,7 @@ import {
   asset,
   View,
   Image,
-} from 'react-vr';
+} from 'react-360';
 
 /* Photo to Blend with Pano background */
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-} from 'react-vr';
+} from 'react-360';
 
 import FadeInView from '../ltwrap/FadeInView';
 

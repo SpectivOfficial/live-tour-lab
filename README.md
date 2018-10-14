@@ -1,7 +1,7 @@
 <h1 align="center"><img width="500" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
-LiveTourLab is a framework for creating Live VR Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
+LiveTourLab is a framework for creating Live VR Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-360) code.
 
 ## Demo (click play to enter)
 <a href="https://livetourlab.com/tours/3004
@@ -46,8 +46,8 @@ alt="[Define in json extend with code" width="500" border="0" /></a>
 1. __Create a new React VR & LiveTourLab project__
 
 ```
-npm install -g react-vr-cli
-react-vr init MyLiveTour
+npm install -g react-360-cli
+react-360 init MyLiveTour
 cd MyLiveTour
 npm install live-tour-lab --save
 npm install
@@ -58,7 +58,7 @@ npm install
 While waiting for install, open index.vr.js and change it to:
 ```jsx
 import React from 'react';
-import { AppRegistry } from 'react-vr';
+import { AppRegistry } from 'react-360';
 import { LiveTour } from 'live-tour-lab';
 
 export default class MyLiveTour extends React.Component {
@@ -104,7 +104,7 @@ import {
   View,
   Animated,
   AnimatedImage,
-} from 'react-vr';
+} from 'react-360';
 
 export default class Hero extends React.Component {
   static defaultProps = {
@@ -164,12 +164,12 @@ export default class Hero extends React.Component {
 }
 ```
 
-2. __index.vr.js__
+2. __index.js__
 
-Open index.vr.js again. Import your new component and send it as a child to LiveTourLab. Full code again:
+Open index.js again. Import your new component and send it as a child to LiveTourLab. Full code again:
 ```jsx
 import React from 'react';
-import { AppRegistry } from 'react-vr';
+import { AppRegistry } from 'react-360';
 import { LiveTour } from 'live-tour-lab';
 import Hero from './Hero';
 
@@ -186,8 +186,23 @@ export default class MyLiveTour extends React.Component {
 AppRegistry.registerComponent('MyLiveTour', () => MyLiveTour);
 ```
 
+3. __client.js__
 
-3. __Edit static_assets/hello-world.json__
+You will need to update to use the new runtime. Mount the app to the system's default 3D location. Add the following
+in the client.js file inside init method.
+
+```
+...
+
+r360.renderToLocation(
+  r360.createRoot('MyLiveTour'),
+  r360.getDefaultLocation(),
+);
+...
+
+```
+
+4. __Edit static_assets/hello-world.json__
 
 You indicated above that the Hero component will take care of "heroes" entries. So locate the last scene "Backyard", and add a "heroes" section, as follows. The elements are sent as props to your Hero.js component.
 ```
@@ -205,7 +220,7 @@ You indicated above that the Hero component will take care of "heroes" entries. 
 ...
 ```
 
-4. __Reload browser__
+5. __Reload browser__
 
 Reload your browser window and enjoy! ;-)
 
@@ -213,7 +228,7 @@ Now add a ?dev=1 to the URL:  http://192.168.1.6:8081/vr/?dev=1#Backyard
 
 With the dev=1 flag, looking down and clicking the semi-transparent circular arrow reloads the json tour definition file, updating the scene definition while keeping all states intact. This works also a production build of the code. Try changing something in one of the "heroes" entries above and reload the json to instantly see the result.
 
-5. __Tour defaults__
+6. __Tour defaults__
 
 A lot of information was the same in the 2 hero entries. While you could change the defaults in your Hero.js component code, it is often the case that you want different looks in different tours. So go ahead and set a default for our tour instead. Add an entry to the defaults section at the top of the json file:
 ```
