@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Pano,
   asset,
-} from 'react-vr';
+} from 'react-360';
 
 /* Format:
 

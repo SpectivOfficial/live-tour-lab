@@ -4,7 +4,7 @@ import {
   Image,
   VrButton,
   VrHeadModel,
-} from 'react-vr';
+} from 'react-360';
 
 export default class DevReload extends React.Component {
   static defaultProps = {

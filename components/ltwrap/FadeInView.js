@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Animated,
-} from 'react-vr';
+} from 'react-360';
 
 import { Easing } from 'react-native';
 

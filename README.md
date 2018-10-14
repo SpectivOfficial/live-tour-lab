@@ -1,7 +1,7 @@
 <h1 align="center"><img width="500" align="center" src="https://livetourlab.com/static/img/ltlab-logo-2000x303.a41dfa1.png" alt="LiveTourLab"/></h1>
 <br/>
 
-LiveTourLab is a framework for creating Live VR Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-vr) code.
+LiveTourLab is a framework for creating Live VR Tours. 21 ready components, easily add your own [React VR](https://github.com/facebook/react-360) code.
 
 ## Demo (click play to enter)
 <a href="https://livetourlab.com/tours/3004
@@ -46,8 +46,8 @@ alt="[Define in json extend with code" width="500" border="0" /></a>
 1. __Create a new React VR & LiveTourLab project__
 
 ```
-npm install -g react-vr-cli
-react-vr init MyLiveTour
+npm install -g react-360-cli
+react-360 init MyLiveTour
 cd MyLiveTour
 npm install live-tour-lab --save
 npm install
@@ -58,7 +58,7 @@ npm install
 While waiting for install, open index.vr.js and change it to:
 ```jsx
 import React from 'react';
-import { AppRegistry } from 'react-vr';
+import { AppRegistry } from 'react-360';
 import { LiveTour } from 'live-tour-lab';
 
 export default class MyLiveTour extends React.Component {
@@ -104,7 +104,7 @@ import {
   View,
   Animated,
   AnimatedImage,
-} from 'react-vr';
+} from 'react-360';
 
 export default class Hero extends React.Component {
   static defaultProps = {
@@ -169,7 +169,7 @@ export default class Hero extends React.Component {
 Open index.vr.js again. Import your new component and send it as a child to LiveTourLab. Full code again:
 ```jsx
 import React from 'react';
-import { AppRegistry } from 'react-vr';
+import { AppRegistry } from 'react-360';
 import { LiveTour } from 'live-tour-lab';
 import Hero from './Hero';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Image,
-} from 'react-vr';
+} from 'react-360';
 
 export default class CardImage extends React.Component {
   static defaultProps = {

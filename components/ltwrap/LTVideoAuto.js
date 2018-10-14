@@ -6,7 +6,7 @@ import {
   VideoControl,
   MediaPlayerState,
   NativeModules,
-} from 'react-vr';
+} from 'react-360';
 
 //import ReactNative from 'ReactNative';
 import { findNodeHandle } from 'react-native';

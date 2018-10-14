@@ -3,7 +3,7 @@ import {
   Text,
   View,
   VrButton,
-} from 'react-vr';
+} from 'react-360';
 
 export default class CardButton extends React.Component {
   static defaultProps = {

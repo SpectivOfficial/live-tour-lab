@@ -2,7 +2,7 @@ import React from 'react';
 import {
   asset,
   Image,
-} from 'react-vr';
+} from 'react-360';
 
 
 export default class Preload extends React.Component {

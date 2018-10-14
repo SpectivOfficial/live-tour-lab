@@ -5,7 +5,7 @@ import {
   VideoPano,
   VideoControl,
   MediaPlayerState,
-} from 'react-vr';
+} from 'react-360';
 
 
 export default class LTVideoPano extends React.Component {

@@ -5,7 +5,7 @@ import {
   Video,
   VideoControl,
   MediaPlayerState,
-} from 'react-vr';
+} from 'react-360';
 
 /* Video to Blend with Pano background */
 
